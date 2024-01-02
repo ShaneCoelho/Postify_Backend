@@ -1,0 +1,16 @@
+{
+  "name": "postify_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaneCoelho/Postify_Backend.git"
+  },
+  "author": "Shane Coelho",
+  "license": "ISC"
+}
