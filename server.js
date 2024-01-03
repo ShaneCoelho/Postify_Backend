@@ -3,9 +3,9 @@ const ConnectionDB =require("./database");
 const express = require("express");
 const cors = require("cors");
 const path = require("path");
-const User = require('./models/user');
+require('./models/User');
 const helmet=require('helmet')
-const Posts = require('./models/posts');
+require('./models/Posts');
 ConnectionDB();
 
 const app = express()
